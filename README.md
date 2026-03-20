@@ -67,7 +67,7 @@
 - Modo de juego de oleadas de enemigos - Marcadores de aparición de enemigos, número de enemigos por ronda variable, conteo en pantalla de enemigos restantes, Incremento de agresividad de enemigos al progresar, spawneo de objetos de curación y mejoras en el periodo de transición entre rondas.
 
   <video controls width="600">
-  	<source src=".Videos/Cut-Merged-2025-08-21 13-12-201755804515149.mp4">
+  	<source src="./Videos/Cut-Merged-2025-08-21 13-12-201755804515149.mp4">
   </video>
 	
 Conceptos aprendidos:
