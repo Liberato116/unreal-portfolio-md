@@ -35,6 +35,7 @@
 	<video controls width="600">
 		<source src="./Videos/Cut-Merged-2025-08-22 19-14-011755911925841.mp4" type="video/mp4">
 	</video>
+ 
  	<video controls width="600">
 		<source src="./Videos/Cut2025-08-22 19-15-21-00.00.00.000-00.00.26.000.mp4" type="video/mp4">
 	</video>
@@ -115,10 +116,10 @@ Como una forma de retomar mis conocimientos de programación.
 - Uso de un IDE moderno: JetBrains Rider, tiene excelente función de auto completado a diferencia del default Visual Studio.
 - Plantilla por defecto: Side scrolling, cuenta con doble salto y salto en paredes que depende de que el jugador este caminando hacia la pared.
 - Eliminada la necesidad de caminar hacia la pared, basta que el personaje este mirando hacia la pared, así es menos demanda mecánica al encadenar varios saltos.
- 
-    <video controls width="600">
-	    <source src="./Videos/cut-merged-2025-08-22 18-58-091755911014454 1.mp4" type="video/mp4">
-    </video>
+
+	<video controls width="600">
+		<source src="./Videos/cut-merged-2025-08-22 18-58-091755911014454 1.mp4" type="video/mp4">
+	</video>
 		
 - Eliminado el doble salto.
 - Coyote Jump implementado
