@@ -44,7 +44,7 @@
 - Movimiento avanzado - Deslizarse, salto de altura variable, cuerpo a tierra con impulso.
 - Mecánica principal: Agarre - Permite tomar un enemigo como rehén mientras se permiten ciertos movimientos y disparar a otros enemigos, soltar el botón suelta al enemigo y lo impulsa en la dirección de movimiento del jugador.
   
-	video controls width="600">
+	<video controls width="600">
 		<source src="./Videos/Cut2025-08-21 13-12-20-00.01.57.000-00.02.09.500.mp4" type="video/mp4">
 	</video>
 	
