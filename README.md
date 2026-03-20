@@ -35,8 +35,8 @@
 	<video controls width="600">
 		<source src="./Videos/Cut-Merged-2025-08-22 19-14-011755911925841.mp4" type="video/mp4">
 	</video>
- 
- 	<video controls width="600">
+ 	
+	<video controls width="600">
 		<source src="./Videos/Cut2025-08-22 19-15-21-00.00.00.000-00.00.26.000.mp4" type="video/mp4">
 	</video>
 
