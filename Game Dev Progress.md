@@ -1,7 +1,8 @@
 ## Febrero a Abril 2025 - Contenidos del curso UACJ
 - Herramienta de terreno - crear y moldear terreno de aspecto natural
 - Unreal Engine
-<video>
+
+<video controls width="600">
 	<source src="./Videos/2025-08-23 14-52-31.mp4" type="video/mp4">
 </video>
 
