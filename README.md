@@ -1,4 +1,191 @@
-## Febrero a Abril 2025 - Contenidos del curso UACJ
+## February – April 2025 — Begginner Game Dev Course Content
+
+- Unreal Engine  
+- Terrain tool — creating and sculpting natural-looking terrain  
+- Object modeling using primitives (cube, cone, sphere, etc.) and deformation  
+- Materials — texture base with properties (roughness, metallic, specular)  
+- Advanced modular terrain material — allows “painting” the terrain with different materials (dirt, gravel, rock) to simulate composition changes based on slope or other factors. Easily extensible with additional materials (sand, snow)
+
+  <video controls width="600">
+    <source src="./Videos/2025-08-23 14-52-31.mp4" type="video/mp4">
+  </video>
+
+- UI creation and coin counter system  
+- Basic level design centered around the coin mechanic  
+
+  <video controls width="600">
+    <source src="./Videos/Coinlevel(1).mp4" type="video/mp4">
+  </video>
+
+- Menu design  
+
+  <video controls width="600">
+    <source src="./Videos/Cut 2025-04-09 19-09-58-00.00.05.425-00.00.25.626.mp4" type="video/mp4">
+  </video>
+
+- Destructible wall system with intact and destroyed states, collectible explosive item, and proximity detection. Equipped explosives can be triggered, starting a UI countdown and activating an explosion radius that affects the player  
+
+  <video controls width="600">
+    <source src="./Videos/2025-04-12 11-47-38-Cut-Merged-1744480392820(1)(1).mp4" type="video/mp4">
+  </video>
+
+---
+
+## April – June 2025 — Completed "GrabShoot" with the following systems:
+
+- Two map designs:
+  - Parking lot with dense cover using cars and pillars, plus a more open central area  
+  - Museum with emphasis on visual design and detailed decoration  
+
+  <video controls width="600">
+    <source src="./Videos/Cut-Merged-2025-08-22 19-14-011755911925841.mp4" type="video/mp4">
+  </video>
+
+  <video controls width="600">
+    <source src="./Videos/Cut2025-08-22 19-15-21-00.00.00.000-00.00.26.000.mp4" type="video/mp4">
+  </video>
+
+- Modular health and damage system — attachable component with predefined functions for damageable objects, including healing, death, and current/max health checks  
+- Advanced movement — sliding, variable jump height, and dive mechanics  
+- Core mechanic: **Grab**
+  - Allows grabbing an enemy as a hostage while retaining limited movement and the ability to shoot  
+  - Releasing the button throws the enemy in the player’s movement direction  
+
+  <video controls width="600">
+    <source src="./Videos/Cut2025-08-21 13-12-20-00.01.57.000-00.02.09.500.mp4" type="video/mp4">
+  </video>
+
+- Weapon switching system with animations, model changes, and stat variations (fire rate, magazine size, damage, etc.)  
+- Shotgun behavior: fires multiple pellets in a randomized spread pattern  
+- Dynamic UI elements reflecting game variables (ammo count, reload progress, health)  
+- Projectile system that triggers damage and detects critical hits (e.g., headshots) for increased damage  
+- Healing pickups:
+  - Spawn from defeated enemies  
+  - Use physics impulse and settle into a rotating state to signal interactivity  
+
+  <video controls width="200">
+    <source src="./Videos/Recording 2025-08-22 192954.mp4" type="video/mp4">
+  </video>
+
+- Upgrade pickups:
+  - Similar visual style to healing items (arrow-shaped)  
+  - Upgrade menu tracks collected items and allows purchasing weapon modifications  
+
+  <video controls width="200">
+    <source src="./Videos/Recording 2025-08-22 193113.mp4" type="video/mp4">
+  </video>
+
+- AI enemies using behavior trees:
+  - Detect player within vision cone  
+  - Shoot and dynamically decide whether to approach or retreat  
+
+- Wave-based game mode:
+  - Enemy spawn points  
+  - Variable enemy count per round  
+  - On-screen remaining enemy counter  
+  - Increasing aggression over time  
+  - Healing and upgrade spawns between rounds  
+
+  <video controls width="600">
+    <source src="./Videos/Cut-Merged-2025-08-21 13-12-201755804515149.mp4" type="video/mp4">
+  </video>
+
+---
+
+## Concepts Learned
+
+- Linear interpolation for basic object animation  
+- Visual scripting (nodes, branches, sequences, boolean logic)  
+- Animation Blueprints (state machines, procedural poses)  
+- Event Dispatchers — broadcasting events across game objects  
+- Interfaces — defining reusable function contracts for different actors  
+- Variable maps — e.g., mapping objects to counts for tracking instances  
+- Camera scripting for main menu sequences  
+
+  <video controls width="600">
+    <source src="./Videos/Cut2025-08-21 13-12-20-00.00.00.000-00.00.09.000.mp4" type="video/mp4">
+  </video>
+
+- Save/load system  
+- Importing external animations  
+- Projectile visual effects  
+- Action queuing — buffering input so actions trigger as soon as possible  
+
+---
+
+## Self-Learning
+
+### June – July 2025
+
+- Multiple implementations of **Coyote Jump** (jump forgiveness window after leaving a platform), improving responsiveness  
+
+#### Recoverable weapon prototype
+- A throwable axe:
+  - First input throws it  
+  - Second input recalls it along a forward arc, damaging anything in its path  
+  - *Damage not yet implemented?*  
+- Required understanding projectile and weapon systems from the first-person template  
+
+---
+
+#### Early work on ambitious project — *Mercury Hg successor: Gallium Ga*
+
+<iframe width="664" height="374"
+src="https://www.youtube.com/embed/nQjGGZ7cm7g"
+allowfullscreen></iframe>
+
+- Achieved:
+  - Level tilting based on a pivot actor controlling all geometry  
+
+- Side effects:
+  - Test player (physics sphere) is launched upward instead of rolling naturally  
+  - Ideal pivot should be directly below the player, but difficult with current setup  
+
+- Alternative:
+  - Simulate tilting using camera rotation and standard player movement  
+  - May introduce physically inaccurate scenarios  
+
+---
+
+### August 2025
+
+#### 2.5D Platformer Prototype (C++)
+
+- Built as a way to revisit programming fundamentals  
+- Using a modern IDE: JetBrains Rider (better autocomplete than default Visual Studio)  
+- Base template: side-scroller with double jump and wall jump requiring movement toward the wall  
+- Modified:
+  - Wall jump no longer requires movement input, only facing direction → reduces mechanical difficulty  
+
+  <video controls width="600">
+    <source src="./Videos/Cut-Merged-2025-08-22 18-58-091755911014454 1.mp4" type="video/mp4">
+  </video>
+
+- Removed double jump  
+- Implemented Coyote Jump  
+
+  <video controls width="600">
+    <source src="./Videos/Cut2025-08-22 18-33-43-00.00.00.500-00.00.03.000 1.mp4" type="video/mp4">
+  </video>
+
+- Dash mechanic:
+  - Replaces double jump (or mapped separately)  
+  - Allows jumping if used within the Coyote Jump window  
+
+- Comparison: door opening 90° implemented in Blueprints vs C++  
+
+  <video controls width="600">
+    <source src="./Videos/Cut2025-08-22 19-06-00-00.00.16.000-00.00.20.500.mp4" type="video/mp4">
+  </video>
+
+- Enemy that gets crushed when landed on  
+
+  <video controls width="600">
+    <source src="./Videos/Cut2025-08-22 18-59-09-00.00.05.000-00.00.12.000.mp4" type="video/mp4">
+  </video>
+
+##Spanish version:
+## Febrero a Abril 2025 - Contenidos del Curso para Principiantes en Desarrollo de Videojuegos
 -  Unreal Engine
 -  Herramienta de terreno - crear y moldear terreno de aspecto natural
 - Modelado de objetos mediante uso de primitivas (cubo, cono, esfera, etc.) y deformación.
