@@ -97,7 +97,9 @@ Conceptos aprendidos:
 
 - #### Inicios de proyecto ambicioso - Sucesor de Mercury Hg - Gallium Ga
 
-	<iframe width="664" height="374" src="https://www.youtube.com/embed/nQjGGZ7cm7g?si=al-pDANOR2FGFjfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<iframe width="664" height="374" src="https://www.youtube.com/embed/nQjGGZ7cm7g?si=al-pDANOR2FGFjfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+		
+	</iframe>
 	
 	
 	Logrado: inclinación del nivel basado en un actor de pivote puesto en el nivel del que toda la geometría depende.
