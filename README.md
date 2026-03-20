@@ -64,11 +64,11 @@
 	</video>
 
 - Enemigos con inteligencia artificial basada en arbol de comportamientos - detectar al jugador en el campo de vision y disparar en un cono hacia el mientras decide si se acerca o aleja del jugador para crear combate dinámico.
-- Modo de juego de oleadas de enemigos - Marcadores de aparición de enemigos, número de enemigos por ronda variable, conteo en pantalla de enemigos restantes, Incremento de agresividad de enemigos al progresar, spawneo de Objetos de curación y mejoras en el periodo de transición entre rondas.
+- Modo de juego de oleadas de enemigos - Marcadores de aparición de enemigos, número de enemigos por ronda variable, conteo en pantalla de enemigos restantes, Incremento de agresividad de enemigos al progresar, spawneo de objetos de curación y mejoras en el periodo de transición entre rondas.
 
-	<video controls width="600">
-		<source src="./Videos/Cut-merged-2025-08-21 13-12-201755804515149.mp4" type="video/mp4">
-	</video>
+  <video controls width="600">
+  	<source src=".Videos/Cut-Merged-2025-08-21 13-12-201755804515149.mp4">
+  </video>
 	
 Conceptos aprendidos:
 - Interpolación lineal para animación básica de objetos de juego.
