@@ -1,7 +1,10 @@
 ## Febrero a Abril 2025 - Contenidos del curso UACJ
 - Herramienta de terreno - crear y moldear terreno de aspecto natural
 - Unreal Engine
-	![[2025-08-23_14-52-31.mkv]]
+<video>
+	<source src="./Videos/2025-08-23 14-52-31.mp4" type="video/mp4">
+</video>
+
 - Modelado de objetos mediante uso de primitivas (cubo, cono, esfera, etc.) y deformación.
 - Materiales - base de textura con propiedades (aspereza, metálico, especularidad)
 - Material de terreno modular avanzado - permite "pintar" el terreno con diferentes materiales (tierra, grava, roca) para simular cambios de composición por inclinación u otros factores. Fácil implementación de materiales adicionales (arena, nieve).
