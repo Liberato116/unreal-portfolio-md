@@ -31,7 +31,7 @@
 ## Abril a Junio 2025 - Terminado "GrabShoot" con las siguientes mecánicas/sistemas:
 
 - Creación de dos mapas - estacionamiento con multitud de cobertura entre carros y pilares con una zona central mas abierta. Museo con un énfasis en diseño estético y amplia decoración
--  	<video controls width="600">
+	<video controls width="600">
 		<source src="./Videos/cut-merged-2025-08-22_19-14-011755911925841.mp4" type="video/mp4">
 	</video>
 
@@ -53,20 +53,20 @@
 - Los proyectiles activan el sistema de daño y detectan si colisionan con puntos críticos (cabeza) para aumento de daño.
 - Objetos de curación con modelo llamativo que pueden aparecer de enemigos muertos con simulación física de un impulso hacia arriba, la cual se detiene a pocos momentos de tocar el suelo para dar lugar a una rotación sobre un eje para indicar que se puede recoger.
 
--  	<video controls width="600">
+	<video controls width="200">
 		<source src="./Videos/Recording 2025-08-22 192954.mp4" type="video/mp4">
 	</video>
 
 - Objetos de mejora - similares a los de curación con modelo de material similar y forma de flecha, un menú mantiene la cuenta de mejoras recogidas para comprar modificaciones a armas
 
--  	<video controls width="600">
+	<video controls width="200">
 		<source src="./Videos/Recording 2025-08-22 193113.mp4" type="video/mp4">
 	</video>
 
 - Enemigos con inteligencia artificial basada en arbol de comportamientos - detectar al jugador en el campo de vision y disparar en un cono hacia el mientras decide si se acerca o aleja del jugador para crear combate dinámico.
 - Modo de juego de oleadas de enemigos - Marcadores de aparición de enemigos, número de enemigos por ronda variable, conteo en pantalla de enemigos restantes, Incremento de agresividad de enemigos al progresar, spawneo de Objetos de curación y mejoras en el periodo de transición entre rondas.
 
--  	<video controls width="600">
+	<video controls width="600">
 		<source src="./Videos/cut-merged-2025-08-21_13-12-201755804515149.mp4" type="video/mp4">
 	</video>
 	
@@ -82,6 +82,7 @@ Conceptos aprendidos:
 	<video controls width="600">
 		<source src="./Videos/Cut2025-08-21_13-12-20-00.00.00.000-00.00.09.000.mp4" type="video/mp4">
 	</video>
+	
 - Sistema de guardado y carga de estado del juego.
 - Importación de animaciones externas.
 - Proyectiles con efectos visuales.
@@ -118,12 +119,13 @@ Conceptos aprendidos:
 		
 	- Eliminado el doble salto.
 	- Coyote Jump implementado
+   
  	<video controls width="600">
 		<source src="./Videos/Cut2025-08-22_18-33-43-00.00.00.500-00.00.03.000 1.mp4" type="video/mp4">
 	</video>
 
 	- Dash, una aceleración en linea recta del jugador que remplaza el doble salto, o alternativamente en otra tecla/botón. Permite hacer un salto después de activarla si esta dentro de la ventana de coyote jump, ademas para más trasfondo.
-	- 
+	  
 	- Comparación de una puerta que se abre en 90 grados hecha en Blueprints y en C++.
 
  	<video controls width="600">
