@@ -13,7 +13,7 @@
 - Diseño de nivel básico alrededor de la mecánica de monedas.
 
 	<video controls width="600">
-		<source src="./Videos/CoinLevel(1).mp4" type="video/mp4">
+		<source src="./Videos/Coinlevel(1).mp4" type="video/mp4">
 	</video>
 
 - Diseño de Menus
@@ -25,14 +25,15 @@
 - Muro destruible con estados completo y destruido, objeto de explosivo recogible y muro con caja de detección de proximidad y explosivos equipados para activar elemento de explosivo conectado y activado con cuenta regresiva en interfaz y radio de explosion que afecta al jugador
 
  	<video controls width="600">
-		<source src="./Videos/2025-04-12 11-47-38-Cut-Merged-1744480392820(1).mp4" type="video/mp4">
+		<source src="./Videos/2025-04-12 11-47-38-Cut-Merged-1744480392820(1)(1).mp4" type="video/mp4">
 	</video>
 
 ## Abril a Junio 2025 - Terminado "GrabShoot" con las siguientes mecánicas/sistemas:
 
 - Creación de dos mapas - estacionamiento con multitud de cobertura entre carros y pilares con una zona central mas abierta. Museo con un énfasis en diseño estético y amplia decoración
+
 	<video controls width="600">
-		<source src="./Videos/Cut-merged-2025-08-22 19-14-011755911925841.mp4" type="video/mp4">
+		<source src="./Videos/Cut-Merged-2025-08-22 19-14-011755911925841.mp4" type="video/mp4">
 	</video>
 
  	<video controls width="600">
