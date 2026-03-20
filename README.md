@@ -11,7 +11,7 @@
 - Material de terreno modular avanzado - permite "pintar" el terreno con diferentes materiales (tierra, grava, roca) para simular cambios de composición por inclinación u otros factores. Fácil implementación de materiales adicionales (arena, nieve).
 
 	<video controls width="600">
-		<source src="./Videos/2025-08-23_14-47-54.mp4" type="video/mp4">
+		<source src="./Videos/2025-08-23 14-47-54.mp4" type="video/mp4">
 	</video>
 	
 - Creación de interfaces de usuario y contador de monedas.
