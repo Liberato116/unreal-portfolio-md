@@ -13,13 +13,13 @@
 - Diseño de nivel básico alrededor de la mecánica de monedas.
 
 	<video controls width="600">
-		<source src="./Videos/CoinLevel.mp4" type="video/mp4">
+		<source src="./Videos/CoinLevel(1).mp4" type="video/mp4">
 	</video>
 
 - Diseño de Menus
   
 	<video controls width="600">
-		<source src="./Videos/Cut_2025-04-09_19-09-58-00.00.05.425-00.00.25.626.mp4" type="video/mp4">
+		<source src="./Videos/Cut 2025-04-09 19-09-58-00.00.05.425-00.00.25.626.mp4" type="video/mp4">
 	</video>
 	
 - Muro destruible con estados completo y destruido, objeto de explosivo recogible y muro con caja de detección de proximidad y explosivos equipados para activar elemento de explosivo conectado y activado con cuenta regresiva en interfaz y radio de explosion que afecta al jugador
@@ -32,11 +32,11 @@
 
 - Creación de dos mapas - estacionamiento con multitud de cobertura entre carros y pilares con una zona central mas abierta. Museo con un énfasis en diseño estético y amplia decoración
 	<video controls width="600">
-		<source src="./Videos/cut-merged-2025-08-22_19-14-011755911925841.mp4" type="video/mp4">
+		<source src="./Videos/Cut-merged-2025-08-22 19-14-011755911925841.mp4" type="video/mp4">
 	</video>
 
  	<video controls width="600">
-		<source src="./Videos/Cut2025-08-22_19-15-21-00.00.00.000-00.00.26.000.mp4" type="video/mp4">
+		<source src="./Videos/Cut2025-08-22 19-15-21-00.00.00.000-00.00.26.000.mp4" type="video/mp4">
 	</video>
 
 - Sistema de daño y salud modular,  agrega un componente e implementa funciones predefinidas a otros objetos dañables. Funciones de curación, muerte y chequeo de salud actual y máxima.
@@ -44,7 +44,7 @@
 - Mecánica principal: Agarre - Permite tomar un enemigo como rehén mientras se permiten ciertos movimientos y disparar a otros enemigos, soltar el botón suelta al enemigo y lo impulsa en la dirección de movimiento del jugador.
   
 	video controls width="600">
-		<source src="./Videos/Cut2025-08-21_13-12-20-00.01.57.000-00.02.09.500.mp4" type="video/mp4">
+		<source src="./Videos/Cut2025-08-21 13-12-20-00.01.57.000-00.02.09.500.mp4" type="video/mp4">
 	</video>
 	
 - Sistema de cambio de arma con animación y cambio de modelo y estadísticas de tasa de disparo, tamaño de cargador, daño, etc.
@@ -67,7 +67,7 @@
 - Modo de juego de oleadas de enemigos - Marcadores de aparición de enemigos, número de enemigos por ronda variable, conteo en pantalla de enemigos restantes, Incremento de agresividad de enemigos al progresar, spawneo de Objetos de curación y mejoras en el periodo de transición entre rondas.
 
 	<video controls width="600">
-		<source src="./Videos/cut-merged-2025-08-21_13-12-201755804515149.mp4" type="video/mp4">
+		<source src="./Videos/Cut-merged-2025-08-21 13-12-201755804515149.mp4" type="video/mp4">
 	</video>
 	
 Conceptos aprendidos:
@@ -80,7 +80,7 @@ Conceptos aprendidos:
 - Scripting de movimientos de la cámara para menú principal.
 
 	<video controls width="600">
-		<source src="./Videos/Cut2025-08-21_13-12-20-00.00.00.000-00.00.09.000.mp4" type="video/mp4">
+		<source src="./Videos/Cut2025-08-21 13-12-20-00.00.00.000-00.00.09.000.mp4" type="video/mp4">
 	</video>
 	
 - Sistema de guardado y carga de estado del juego.
@@ -114,14 +114,14 @@ Conceptos aprendidos:
 	- Eliminada la necesidad de caminar hacia la pared, basta que el personaje este mirando hacia la pared, así es menos demanda mecánica al encadenar varios saltos.
 
  	<video controls width="600">
-		<source src="./Videos/cut-merged-2025-08-22_18-58-091755911014454 1.mp4" type="video/mp4">
+		<source src="./Videos/cut-merged-2025-08-22 18-58-091755911014454 1.mp4" type="video/mp4">
 	</video>
 		
 	- Eliminado el doble salto.
 	- Coyote Jump implementado
    
  	<video controls width="600">
-		<source src="./Videos/Cut2025-08-22_18-33-43-00.00.00.500-00.00.03.000 1.mp4" type="video/mp4">
+		<source src="./Videos/Cut2025-08-22 18-33-43-00.00.00.500-00.00.03.000 1.mp4" type="video/mp4">
 	</video>
 
 	- Dash, una aceleración en linea recta del jugador que remplaza el doble salto, o alternativamente en otra tecla/botón. Permite hacer un salto después de activarla si esta dentro de la ventana de coyote jump, ademas para más trasfondo.
@@ -129,11 +129,11 @@ Conceptos aprendidos:
 	- Comparación de una puerta que se abre en 90 grados hecha en Blueprints y en C++.
 
  	<video controls width="600">
-		<source src="./Videos/Cut2025-08-22_19-06-00-00.00.16.000-00.00.20.500.mp4" type="video/mp4">
+		<source src="./Videos/Cut2025-08-22 19-06-00-00.00.16.000-00.00.20.500.mp4" type="video/mp4">
 	</video>
 
 	- Enemigo que se aplasta al caer en su cabeza
 
 	<video controls width="600">
-		<source src="./Videos/Cut2025-08-22_18-59-09-00.00.05.000-00.00.12.000.mp4" type="video/mp4">
+		<source src="./Videos/Cut2025-08-22 18-59-09-00.00.05.000-00.00.12.000.mp4" type="video/mp4">
 	</video>
