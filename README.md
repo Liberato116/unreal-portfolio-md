@@ -24,7 +24,7 @@
 	
 - Muro destruible con estados completo y destruido, objeto de explosivo recogible y muro con caja de detección de proximidad y explosivos equipados para activar elemento de explosivo conectado y activado con cuenta regresiva en interfaz y radio de explosion que afecta al jugador
 
- 	<video controls width="600">
+	<video controls width="600">
 		<source src="./Videos/2025-04-12 11-47-38-Cut-Merged-1744480392820(1)(1).mp4" type="video/mp4">
 	</video>
 
@@ -35,7 +35,6 @@
 	<video controls width="600">
 		<source src="./Videos/Cut-Merged-2025-08-22 19-14-011755911925841.mp4" type="video/mp4">
 	</video>
-
  	<video controls width="600">
 		<source src="./Videos/Cut2025-08-22 19-15-21-00.00.00.000-00.00.26.000.mp4" type="video/mp4">
 	</video>
@@ -125,7 +124,7 @@ Conceptos aprendidos:
 		<source src="./Videos/Cut2025-08-22 18-33-43-00.00.00.500-00.00.03.000 1.mp4" type="video/mp4">
 	</video>
 
-	- Dash, una aceleración en linea recta del jugador que remplaza el doble salto, o alternativamente en otra tecla/botón. Permite hacer un salto después de activarla si esta dentro de la ventana de coyote jump, ademas para más trasfondo.
+	- Dash, una aceleración en linea recta del jugador que remplaza el doble salto, o alternativamente en otra tecla/botón. Permite hacer un salto después de activarla si esta dentro de la ventana de coyote jump para más trasfondo.
 	  
 	- Comparación de una puerta que se abre en 90 grados hecha en Blueprints y en C++.
 
@@ -134,7 +133,7 @@ Conceptos aprendidos:
 	</video>
 
 	- Enemigo que se aplasta al caer en su cabeza
-
+ 
 	<video controls width="600">
 		<source src="./Videos/Cut2025-08-22 18-59-09-00.00.05.000-00.00.12.000.mp4" type="video/mp4">
 	</video>
