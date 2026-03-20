@@ -6,6 +6,10 @@
 	<source src="./Videos/2025-08-23 14-52-31.mp4" type="video/mp4">
 </video>
 
+<video controls width="600">
+  <source src="https://raw.githubusercontent.com/liberato116/unreal-portfolio-md/main/Videos/2025-08-23%2014-52-31.mp4" type="video/mp4">
+</video>
+
 - Modelado de objetos mediante uso de primitivas (cubo, cono, esfera, etc.) y deformación.
 - Materiales - base de textura con propiedades (aspereza, metálico, especularidad)
 - Material de terreno modular avanzado - permite "pintar" el terreno con diferentes materiales (tierra, grava, roca) para simular cambios de composición por inclinación u otros factores. Fácil implementación de materiales adicionales (arena, nieve).
